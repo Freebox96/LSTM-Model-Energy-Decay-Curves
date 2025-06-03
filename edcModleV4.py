@@ -30,7 +30,7 @@ from tensorflow.keras.callbacks import EarlyStopping
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_absolute_error, mean_squared_error
-import helperFunctions.aacousticsParameters as ap
+#import helperFunctions.aacousticsParameters as ap
 
 # Config and Paths
 edc_folder_path = r"dataset/room_acoustic_parameters/EDC"
