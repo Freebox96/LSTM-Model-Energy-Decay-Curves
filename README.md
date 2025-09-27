@@ -44,31 +44,6 @@ conda activate rir-reconstruction
 
 ---
 
-## 📂 Repository Structure
-
-```
-RIR-Reconstruction/
-│
-├── dataset/                          # Input dataset (room configs, EDCs)
-│   ├── room_acoustic_largedataset/
-│   │   ├── full_large_dataset.csv    # Room features
-│   │   ├── EDC/                      # Ground truth EDCs (.npy files)
-│
-├── Results/                          # Saved models, scalers, and inference outputs
-│   ├── ICASSP/2025-09-13/...         # Example trained model checkpoint and scalers
-│
-├── training/                         # Training scripts
-│   ├── train_edcModelPytorchLighteningV3.py
-│   ├── utils.py
-│
-├── inference_edcModelPytorchLighteningV3.py  # Main inference script
-├── requirements.txt                  # Python dependencies (pinned versions)
-├── environment.yml                   # Conda environment file
-└── README.md
-```
-
----
-
 ## ▶️ Running Inference
 
 The main script is **`inference_edcModelPytorchLighteningV3.py`**.
@@ -120,10 +95,11 @@ Each row in the CSV corresponds to:
 ```
 [room_id, length, width, height, absorption_band_1, ..., absorption_band_7, src_x, src_y, src_z, rec_x, rec_y, rec_z]
 ```
+
 ### Step 2 – Run Training
 
 ```bash
-python training/train_edcModelPytorchLighteningV3.py
+python training/train_edcModelPytorchLighteningICASSP_V1.py
 ```
 
 ### Step 3 – Outputs
@@ -183,10 +159,11 @@ After training or inference, you’ll get:
 If you use this work, please cite:
 
 ```
-@inproceedings{YourCitation,
-  title={Deep Learning-based RIR Reconstruction from EDCs},
-  author={Imran Muhammad, Gerald Schuller},
-  booktitle={ICASSP-2026},
-  year={2026}
-}
+@inproceedings{tui2026edc,
+    title={ROOM IMPULSE RESPONSE PREDICTION WITH NEURAL NETWORKS: FROM ENERGY DECAY CURVES TO PERCEPTUAL VALIDATION},
+    author={Imran Muhammad, Gerald Schuller},
+    booktitle={2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+    year={2026},
+    organization={IEEE}
+    }
 ```
