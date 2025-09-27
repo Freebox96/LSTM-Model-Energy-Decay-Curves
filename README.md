@@ -119,10 +119,10 @@ For **Mode 2**, input the features in this order:
 ### **Example Input**
 
 ```
-Room Dimensions: 4.0, 5.0, 2.5
-Source Position: 1.0, 2.0, 1.5
-Receiver Position: 3.0, 4.0, 1.5
-Absorption: 0.01, 0.014, 0.1, 0.19, 0.2, 0.21, 0.023
+Room Dimensions: 3.0, 4.0, 3.0
+Source Position: 1.4, 1.4, 1.5
+Receiver Position: 1.8, 3.0, 1.5
+Absorption: 0.14, 0.27, 0.36, 0.3, 0.24, 0.24, 0.03
 ```
 
 ---
