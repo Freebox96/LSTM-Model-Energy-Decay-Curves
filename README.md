@@ -221,7 +221,7 @@ If you use this repository in your research, please cite:
 
 For inquiries, suggestions, or collaborations:
 
-* **Author:** Dr. Imran
+* **Contact:** Dr. Imran
 * **Affiliation:** Applied Media Systems, TU Ilmenau Germany
 * **Email:** [muhammad.imran@tu-ilmenau.de](mailto:muhammad.imran@tu-ilmenau.de)
 
