@@ -207,6 +207,7 @@ If you use this repository in your research, please cite:
   author={Imran MUhammad, Gerald Schuller},
   booktitle={Proc. IEEE ICASSP 2026},
   year={2026}
+  DOI: https://arxiv.org/abs/2509.24769
 }
 ```
 ---
