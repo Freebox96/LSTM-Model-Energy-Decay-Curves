@@ -245,3 +245,4 @@ This repository provides a **practical, academically validated framework** for:
 * Supporting both dataset-based and custom room inference
 * Enabling fast and accurate acoustic parameter estimation for auralization and speech applications.
 
+# LSTM-Model-Energy-Decay-Curves
