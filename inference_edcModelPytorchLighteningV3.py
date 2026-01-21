@@ -162,7 +162,7 @@ if __name__ == "__main__":
         new_features_scaled = new_features_scaled.reshape(1, 1, input_dim)
 
         # Load model
-        model = EDCModel.load_from_checkpoint(checkpoint_path, input_dim=input_dim, target_length=target_length)
+        model = EDCModel.load_from_checkpoint(checkpoint_path, input_dim=input_dim, target_length=target_length, map_location=torch.device("cpu"))
         model.eval()
         
 
